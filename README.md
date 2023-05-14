@@ -6,7 +6,7 @@ In this porject the main focus is to create a:
 - Host it on a cloud service
 
 ## Api sources used:
-News api
+News api \
 alphavantage api
 
 ## Cloud service used:
