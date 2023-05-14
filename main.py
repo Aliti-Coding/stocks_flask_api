@@ -13,17 +13,13 @@ def home():
 @app.route("/news")
 def news():
     ticker = request.args.get("ticker").lower()
-    print(ticker)
+#     print(ticker)
 
     apicall = NewsAPI(ticker)
     get_data = apicall.api_call()
     print(len(get_data))
     if len(get_data) > 0:
-            
-    
-        
-        # in order to maintain the order of dictionary we use the code under
-        # ordered_result = OrderedDict(get_data)
+           
 
         status_dict = {200: "ok"}
         result_dict = {"result": get_data}
@@ -40,7 +36,7 @@ def news():
 @app.route("/stock")    
 def stocks():
     ticker = request.args.get("ticker").lower()
-    print(ticker)
+#     print(ticker)
 
     apicall = StockAPI(ticker)
     get_data = apicall.get_data()
