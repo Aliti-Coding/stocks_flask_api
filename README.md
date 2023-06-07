@@ -12,7 +12,6 @@ alphavantage api
 ## Cloud service used:
 Google cloud platform - GCP
 
-Pictures:
 
 Home page: 
 <img width="821" alt="image" src="https://github.com/Aliti-Coding/stocks_flask_api/assets/99643105/e96e1eb7-52ca-473a-8664-1b3f3fa529f4">
