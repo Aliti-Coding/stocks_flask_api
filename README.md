@@ -1,5 +1,5 @@
 # Flask api for stocks and news
-<a href="flaskapi-386415.ue.r.appspot.com/"> Link to api </a> /
+<a href="flaskapi-386415.ue.r.appspot.com/"> Link to api </a> 
 
 In this porject the main focus is to create a:
 - Flask api
